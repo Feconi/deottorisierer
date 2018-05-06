@@ -2,7 +2,7 @@
 // @name Deottorisierer
 // @namespace https://user.informatik.uni-goettingen.de/~felix.schelle1/
 // @description Die AStA-Seite schoener machen
-// @version 1.2
+// @version 1.1
 // @author Asterix
 // @include https://asta.uni-goettingen.de/*
 // @run-at document-end
@@ -33,7 +33,6 @@ function getStyles(){
     s += '#access > .menu > ul > li > a > span {border-color: #660066; box-shadow: 1px 0 0 #7718bd;} ';
     s += '.tribe-events-notices {color: #993399; background-color: #ffccff; border-color:#ff99ff;} ';
     s += '#cff .cff-item {border-bottom: 1px solid #660099 !important;} ';
-    s += '.sidey .widget-title {background-color: #990099; border-color:#660099;}';
     return s;
 }
 
@@ -57,7 +56,7 @@ function deotto(){
 
 function build(){
     let div = document.getElementById('post-0');
-    div.innerHTML = '<h1><img src="https://user.informatik.uni-goettingen.de/~felix.schelle1/hopotenuse/deotto/icon.png" alt="violet" /> Deottorisierer</h1><p>Informationen zum user script findest du auf <a href="https://user.informatik.uni-goettingen.de/~felix.schelle1/hopotenuse/deotto">https://user.informatik.uni-goettingen.de/~felix.schelle1/hopotenuse/deotto</a></p><p>Installierte Version: 1.2</p>';
+    div.innerHTML = '<h1><img src="https://user.informatik.uni-goettingen.de/~felix.schelle1/hopotenuse/deotto/icon.png" alt="violet" /> Deottorisierer</h1><p>Informationen zum user script findest du auf <a href="https://user.informatik.uni-goettingen.de/~felix.schelle1/hopotenuse/deotto">https://user.informatik.uni-goettingen.de/~felix.schelle1/hopotenuse/deotto</a></p><p>Installierte Version: 1.1</p>';
     document.getElementsByTagName('title')[0].firstChild.nodeValue = "Deottorisierer";
 }
 
