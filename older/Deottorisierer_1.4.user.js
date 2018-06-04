@@ -38,7 +38,7 @@ function getStyles(){
     s += '.sidey .widget-title {background-color: #990099; border-color:#660099;}';
     s += '.socials .socials-hover {background-color: #bb77cc;}';
     s += '.socials a {background-color: #660099;}';
-    s += '#catapult-cookie-bar {position: absolut;}';
+    s += '#catapult-cookie-bar {position: absolute;}';
     return s;
 }
 
