@@ -1,3 +1,7 @@
+This repository is now on https://gitlab.com/feconi/deottorisierer
+
+---
+
 # Deottorisierer
 The Deottorisierer is a userscript to beautify the homepage of the AStA in Göttingen.
 
